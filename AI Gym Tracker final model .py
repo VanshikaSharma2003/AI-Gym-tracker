@@ -237,8 +237,8 @@
     "\n",
     "    # Summary display\n",
     "    st.header(\"🏆 Session Summary\")\n",
-    "    for key, count in tracker.counters.items():
-    "        st.write(f"**{key.replace('_',' ').capitalize()}**: {count} reps")
+        for key, count in tracker.counters.items():
+            st.write(f"**{key.replace('_',' ').capitalize()}**: {count} reps")
    ]
   },
  
