@@ -244,7 +244,11 @@
   {
    "cell_type": "code",
    "execution_count": null
-   "id": "439d04e5-707e-4a10-b1e9-b483573dd452",
+   my_config = {
+    "id": "439d04e5-707e-4a10-b1e9-b483573dd452",
+    "name": "Workout Session"
+}
+
    "metadata": {},
    "outputs": [],
    "source": []
