@@ -197,8 +197,8 @@
     }
    ],
    "source": [
-    "import streamlit as st\n",
-    "import cv2\n",
+    import streamlit as st\n,
+    import cv2\n,
     "from tracker_model import GymTracker\n",
     "import numpy as np\n",
     "\n",
