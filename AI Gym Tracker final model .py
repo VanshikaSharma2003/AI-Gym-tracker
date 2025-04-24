@@ -237,22 +237,11 @@
     "\n",
     "    # Summary display\n",
     "    st.header(\"🏆 Session Summary\")\n",
-    "    for key, count in tracker.counters.items():\n",
-    "        st.write(f\"**{key.replace('_',' ').capitalize()}**: {count} reps\")"
+    "    for key, count in tracker.counters.items():
+    "        st.write(f"**{key.replace('_',' ').capitalize()}**: {count} reps")
    ]
   },
-  {
-   "cell_type": "code",
-   "execution_count": null
-   my_config = {
-    "id": "439d04e5-707e-4a10-b1e9-b483573dd452",
-    "name": "Workout Session"
-}
-
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
+ 
  ],
  "metadata": {
   "kernelspec": {
